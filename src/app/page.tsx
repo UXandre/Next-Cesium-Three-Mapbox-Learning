@@ -1,11 +1,8 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
-import DigitalTwin from '../components/DigitalTwin'
+import DigitalTwin from '@/components/DigitalTwin'
+import Map from '@/components/Map'
 
-// const DigitalTwin = dynamic(
-//   () => import('../components/DigitalTwin'),
-//   { ssr: false }
-// )
 
 export default function Home() {
   return (
@@ -13,7 +10,11 @@ export default function Home() {
       <Head>
         <link rel="stylesheet" href="cesium/Widgets/widgets.css" />
       </Head>
-      <DigitalTwin />
+      <div className='container'>
+        <DigitalTwin className='left' />
+        <Map className='right' />
+      </div>
+
     </>
   )
 }

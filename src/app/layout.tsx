@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "cesium/Build/Cesium/Widgets/widgets.css";
 import "@cesium/engine/Source/Widget/CesiumWidget.css";
+// import 'mapbox-gl/dist/mapbox-gl.css';
 
 const inter = Inter({ subsets: ["latin"] });
 
