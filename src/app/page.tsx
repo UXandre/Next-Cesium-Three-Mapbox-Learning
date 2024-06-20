@@ -4,6 +4,8 @@ import DigitalTwin from '@/components/DigitalTwin'
 import Map from '@/components/Map'
 import Map2 from '@/components/Map2'
 
+import { ThreeJSTest } from '@/components/ThreeJSTest'
+
 
 export default function Home() {
   return (
@@ -14,9 +16,10 @@ export default function Home() {
         <script src="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js"></script>
       </Head>
       <div className='container'>
-        <DigitalTwin className='left' />
+        {/* <DigitalTwin className='left' /> */}
         {/* <Map className='right' /> */}
-        <Map2 className='right' />
+        {/* <Map2 className='right' /> */}
+        <ThreeJSTest/>
       </div>
 
     </>
