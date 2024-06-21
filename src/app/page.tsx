@@ -16,10 +16,10 @@ export default function Home() {
         <script src="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js"></script>
       </Head>
       <div className='container'>
-        {/* <DigitalTwin className='left' /> */}
-        {/* <Map className='right' /> */}
+        <DigitalTwin className='left' />
+        <Map className='right' />
         {/* <Map2 className='right' /> */}
-        <ThreeJSTest/>
+        {/* <ThreeJSTest/> */}
       </div>
 
     </>
